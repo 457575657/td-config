@@ -1,4 +1,4 @@
-###datasource config
+
 tdmember.master.jdbc.driverClassName=com.mysql.jdbc.Driver
 tdmember.master.jdbc.url=jdbc:mysql://192.168.138.129:3306/td_member
 tdmember.master.jdbc.username=yips
