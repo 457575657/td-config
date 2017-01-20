@@ -1,0 +1,18 @@
+##################datasource config###############################
+######################master###########################
+tdorder.master.jdbc.driverClassName=com.mysql.jdbc.Driver
+tdorder.master.jdbc.url=jdbc:mysql://192.168.138.129:3306/td_order
+tdorder.master.jdbc.username=yips
+tdorder.master.jdbc.password=#Td161226
+tdorder.master.jdbc.filters=stat
+tdorder.master.jdbc.initialSize=1
+tdorder.master.jdbc.maxActive=20
+tdorder.master.jdbc.maxWait=60000
+tdorder.master.jdbc.timeBetweenEvictionRunsMillis=60000
+tdorder.master.jdbc.minEvictableIdleTimeMillis=300000
+tdorder.master.jdbc.validationQuery=SELECT 'x'
+tdorder.master.jdbc.testWhileIdle=true
+tdorder.master.jdbc.testOnBorrow=false
+tdorder.master.jdbc.testOnReturn=false
+tdorder.master.jdbc.poolPreparedStatements=true
+tdorder.master.jdbc.maxPoolPreparedStatementPerConnectionSize=20
