@@ -1,0 +1,36 @@
+###datasource config
+master.jdbc.driverClassName=com.mysql.jdbc.Driver
+master.jdbc.url=jdbc:mysql://192.168.138.129:3306/td_member
+master.jdbc.username=yips
+master.jdbc.password=#Td161226
+master.jdbc.filters=stat
+master.jdbc.initialSize=1
+master.jdbc.maxActive=20
+master.jdbc.maxWait=60000
+master.jdbc.timeBetweenEvictionRunsMillis=60000
+master.jdbc.minEvictableIdleTimeMillis=300000
+master.jdbc.validationQuery=SELECT 'x'
+master.jdbc.testWhileIdle=true
+master.jdbc.testOnBorrow=false
+master.jdbc.testOnReturn=false
+master.jdbc.poolPreparedStatements=true
+master.jdbc.maxPoolPreparedStatementPerConnectionSize=20
+
+slave.jdbc2.driverClassName=com.mysql.jdbc.Driver
+slave.jdbc2.url=jdbc:mysql://10.100.1.158:3306/td_member
+slave.jdbc2.username=root
+slave.jdbc2.password=root
+slave.jdbc2.filters=stat
+slave.jdbc2.initialSize=1
+slave.jdbc2.maxActive=20
+slave.jdbc2.maxWait=60000
+slave.jdbc2.timeBetweenEvictionRunsMillis=60000
+slave.jdbc2.minEvictableIdleTimeMillis=300000
+slave.jdbc2.validationQuery=SELECT 'x'
+slave.jdbc2.testWhileIdle=true
+slave.jdbc2.testOnBorrow=false
+slave.jdbc2.testOnReturn=false
+slave.jdbc2.poolPreparedStatements=true
+slave.jdbc2.maxPoolPreparedStatementPerConnectionSize=20
+
+
